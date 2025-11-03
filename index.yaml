@@ -1,0 +1,48 @@
+apiVersion: v1
+entries:
+  memgraph:
+  - apiVersion: v1
+    appVersion: 3.6.1
+    created: "2025-11-03T14:38:24.097882703Z"
+    description: MemgraphDB Helm Chart
+    digest: 3a7312ca890108815175a959386e003c8f5a8e77e4692df5ffd30b1a9caa93a1
+    home: https://memgraph.com/
+    icon: https://public-assets.memgraph.com/memgraph-logo/logo-large.png
+    keywords:
+    - graph
+    - database
+    - cypher
+    - analytics
+    maintainers:
+    - email: tech@memgraph.com
+      name: Memgraph
+    name: memgraph
+    sources:
+    - https://github.com/memgraph/memgraph
+    type: application
+    urls:
+    - https://andradelicostea.github.io/memgraph-unit/memgraph-0.2.10.tgz
+    version: 0.2.10
+  - apiVersion: v2
+    appVersion: 3.6.1
+    created: "2025-11-03T14:38:24.099173732Z"
+    description: MemgraphDB Helm Chart
+    digest: 3a7312ca890108815175a959386e003c8f5a8e77e4692df5ffd30b1a9caa93a1
+    home: https://memgraph.com/
+    icon: https://public-assets.memgraph.com/memgraph-logo/logo-large.png
+    keywords:
+    - graph
+    - database
+    - cypher
+    - analytics
+    maintainers:
+    - email: tech@memgraph.com
+      name: Memgraph
+    name: memgraph
+    sources:
+    - https://github.com/memgraph/memgraph
+    type: application
+    urls:
+    - https://andradelicostea.github.io/memgraph-unit/memgraph-unit/memgraph-0.2.10.tgz
+    version: 0.2.10
+generated: "2025-11-03T14:38:24.095053952Z"
