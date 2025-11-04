@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
   memgraph:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: 3.6.1
-    created: "2025-11-03T14:38:24.097882703Z"
+    created: "2025-11-04T08:53:40.981446796Z"
     description: MemgraphDB Helm Chart
-    digest: 3a7312ca890108815175a959386e003c8f5a8e77e4692df5ffd30b1a9caa93a1
+    digest: fac6a065a4213ac1f2f701bd42aa47afc25c787980a1c776372fc167a83233a9
     home: https://memgraph.com/
     icon: https://public-assets.memgraph.com/memgraph-logo/logo-large.png
     keywords:
@@ -23,26 +23,26 @@ entries:
     urls:
     - https://andradelicostea.github.io/memgraph-unit/memgraph-0.2.10.tgz
     version: 0.2.10
+  my-chart:
   - apiVersion: v2
-    appVersion: 3.6.1
-    created: "2025-11-03T14:38:24.099173732Z"
-    description: MemgraphDB Helm Chart
-    digest: 3a7312ca890108815175a959386e003c8f5a8e77e4692df5ffd30b1a9caa93a1
-    home: https://memgraph.com/
-    icon: https://public-assets.memgraph.com/memgraph-logo/logo-large.png
-    keywords:
-    - graph
-    - database
-    - cypher
-    - analytics
-    maintainers:
-    - email: tech@memgraph.com
-      name: Memgraph
-    name: memgraph
-    sources:
-    - https://github.com/memgraph/memgraph
+    appVersion: 1.16.0
+    created: "2025-11-04T08:53:40.981749087Z"
+    description: A Helm chart for Kubernetes
+    digest: 757ed17749472643c3e26655d2af79e282b480a84929f9346332327586595323
+    name: my-chart
     type: application
     urls:
-    - https://andradelicostea.github.io/memgraph-unit/memgraph-unit/memgraph-0.2.10.tgz
-    version: 0.2.10
-generated: "2025-11-03T14:38:24.095053952Z"
+    - https://andradelicostea.github.io/memgraph-unit/my-chart-0.1.0.tgz
+    version: 0.1.0
+  qdrant-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-11-04T08:53:40.982450299Z"
+    description: A Helm chart for Kubernetes
+    digest: a5a30cfd32b0e71a574760e0182ecae1023a664576f8e3194fa5bb686b077af9
+    name: qdrant-chart
+    type: application
+    urls:
+    - https://andradelicostea.github.io/memgraph-unit/qdrant-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-11-04T08:53:40.979562449Z"
